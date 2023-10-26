@@ -7,7 +7,7 @@ public class BildvisareA extends JFrame {
     JPanel panel;
     final String imagePatch ="C:\\Users\\Hidro\\Desktop\\Inlamingar";
     public BildvisareA (){
-        changeImageButton = new JButton("byt bild");
+        changeImageButton = new JButton("byt bild !");
         imageViewer = new JLabel(new ImageIcon(imagePatch));
         panel = new JPanel();
         panel.setLayout(new FlowLayout());
